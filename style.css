@@ -1,0 +1,46 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(SFTSchriftedSansTRIAL-Bold.otf);
+  }
+  
+  * {
+    font-family: myFirstFont;
+  }
+  
+  .content {
+    height: 100dvh;
+    font-size: 150px;
+    line-height: 100%;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.content:has(#bachelorproef:hover) {
+    background-image: url("bachelorproef.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+
+  .content:has(#zevenmaal:hover) {
+    background-image: url("zevenmaalzeven.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+
+  .content:has(#tekenen:hover) {
+    background-image: url("tekenenstudio.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
